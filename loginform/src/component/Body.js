@@ -11,7 +11,7 @@ function Body() {
     };
 
     const handleOnClick = () => {
-        setChange(text.length < 5 ? "다시 입력해주세요" : "change");
+        setChange(text.length < 5 ? "다시 입력해주세요" : "통과되었습니다");
     };
 
     return (

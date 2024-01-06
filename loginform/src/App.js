@@ -1,17 +1,15 @@
-import './App.css';
+import "./App.css";
 import Header from "./component/Header";
-import Body from "./component/Body";
-import Footer from "./component/Footer";
+import Body from "./component/body"
 
 function App() {
-    const name = "이은채";
-    return (
-      <div className='App'>
-        <Header />
-        <Body name = {name} />
-        <Footer />
-      </div>
-    );
+  return (
+    <div className="App">
+      <Header />
+      <Body />
+    </div>
+  );
+
 }
 
 export default App;

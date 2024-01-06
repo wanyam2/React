@@ -1,8 +1,10 @@
-function Header() {
+import "./Header.css";
+
+const Header = ()  => {
     return (
-        <header>
-            <h1>header</h1>
-        </header>
+        <div className = "Header">
+            <h1> 🔒 </h1>
+        </div>
     );
 }
 

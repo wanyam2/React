@@ -1,6 +1,6 @@
 import "./body.css";
 
-const App = () =>  {
+const body = () =>  {
     return (
     <div className="Body">
         <input type = "text" id = "user_id" size = "10" placeholder="아이디"></input>
@@ -10,4 +10,4 @@ const App = () =>  {
     );
 }
 
-export default App;
+export default body;

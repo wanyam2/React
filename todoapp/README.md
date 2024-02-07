@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+<div align=center>
+<h3>TodoList 구현하기</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
+**1. 레퍼런스 가져오기**
 
-## Available Scripts
+![image](https://github.com/wanyam2/TodoList/assets/131340668/b998b7da-6247-4240-84c3-39ab0ca0d46e)
 
-In the project directory, you can run:
+다음과 같은 투두리스트를 참고
 
-### `npm start`
+내부 기능은 리액트 교재의 [project 2. 할 일 관리 앱] 을 참고
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
+**2. 기초 설계**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+크게 Header, TodoList(TodoItem), TodoEditor 세 컴포넌트로 분류하여 각자 작업
 
-### `npm test`
+Header : @Hyehyun1001
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+TodoList : @wanyam2
 
-### `npm run build`
+TodoEditor : @Boyeon-Shin
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+이후 merge하여 기초적인 UI 완성
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://github.com/wanyam2/TodoList/assets/131340668/e8b030a4-d821-4ae2-8263-65f3d742c81e)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
+**3. UI 및 기능 디벨롭**
 
-### `npm run eject`
+(1) 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://github.com/wanyam2/TodoList/assets/131340668/6186675f-a239-40d3-b3a9-ba5e8480075d)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Header 위치 가운데로 수정
+- searchbar 간격 조정
+- 인덱스 버튼 크기 및 간격 조정
+- 추가 버튼 내부 글씨 크기 및 위치 조정
+- 각 컴포넌트 간 구분선 추가
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+(2)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://github.com/wanyam2/TodoList/assets/131340668/782b7c64-6447-49cf-b28b-66b761a67f1b)
 
-## Learn More
+- 검색어 입력창 너비 조절
+- 체크박스 활성화
+- 인덱스 버튼 크기 조정
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</div>
